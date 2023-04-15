@@ -35,4 +35,8 @@ android {
     kotlin {
         jvmToolchain(11)
     }
+    dependencies {
+        implementation("androidx.compose.ui:ui:1.4.1")
+        implementation("androidx.compose.material:material:1.4.1")
+    }
 }
